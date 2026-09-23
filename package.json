@@ -1,0 +1,14 @@
+{
+  "name": "tusk-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Your Business: a starter website already wired to Tusk CMS. Plain HTML and CSS, built from a Tusk snapshot with no dependencies.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

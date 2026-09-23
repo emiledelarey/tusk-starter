@@ -1,0 +1,9 @@
+dist/
+.tusk/
+.vercel/
+.env
+.env.*
+node_modules/
+
+.vercel
+.env*

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work · Your Business</title>
+<meta name="description" content="Recent gardens by Your Business.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body data-tusk-page="work">
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="/"><i></i>Your Business</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/">Home</a>
+      <a href="/work/" aria-current="page">Work</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow" data-tusk="work.eyebrow" data-tusk-label="Small line above the heading">Recent work</p>
+      <h1 class="h1" data-tusk="work.heading" data-tusk-label="Page heading">Three gardens from the last year.</h1>
+      <p class="lead" data-tusk="work.lead" data-tusk-label="Introduction" data-tusk-kind="textarea">Small sites, mostly. Each one planned to look right on the first day and better every year after.</p>
+    </div>
+  </section>
+
+  <!-- A repeated group: the wrapper names the list, each child is an entry,
+       the parts inside are its sub-fields. The client adds, removes and
+       reorders entries in Tusk; build.mjs clones the first entry per record. -->
+  <section class="wrap">
+    <div class="projects" data-tusk-list="work.projects" data-tusk-label="Projects" data-tusk-max="12">
+      <article class="project" data-tusk-item>
+        <figure><img data-tusk-field="photo" data-tusk-label="Photo" data-tusk-aspect="3:2" src="/assets/garden-5.webp" alt="" loading="lazy" width="1600" height="1000"></figure>
+        <div class="body">
+          <h3 data-tusk-field="title" data-tusk-label="Title">Riverside courtyard</h3>
+          <p data-tusk-field="blurb" data-tusk-label="Blurb" data-tusk-kind="textarea">A tight inner-city courtyard turned into a shaded room of ferns, gravel and a single flowering gum.</p>
+        </div>
+      </article>
+      <article class="project" data-tusk-item>
+        <figure><img data-tusk-field="photo" src="/assets/garden-6.webp" alt="" loading="lazy" width="1600" height="1000"></figure>
+        <div class="body">
+          <h3 data-tusk-field="title">Hillside kitchen garden</h3>
+          <p data-tusk-field="blurb">Terraced beds, a rainwater tank and an orchard that feeds a family of five through the year.</p>
+        </div>
+      </article>
+      <article class="project" data-tusk-item>
+        <figure><img data-tusk-field="photo" src="/assets/garden-2.webp" alt="" loading="lazy" width="1600" height="1000"></figure>
+        <div class="body">
+          <h3 data-tusk-field="title">Corner park refresh</h3>
+          <p data-tusk-field="blurb">New paths, native grasses and seating for a small council park that had lost its shade.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="band">
+      <div>
+        <p class="eyebrow" data-tusk="globals.bandEyebrow">Work with us</p>
+        <h2 class="h2" data-tusk="globals.bandTitle">Get in touch</h2>
+      </div>
+      <a class="btn btn--primary" href="/contact/"><span data-tusk="globals.bandBtn">Talk to us</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>Your Business Pty Ltd · Your suburb, Your city</span>
+    <span><a href="/">Home</a> · <a href="/contact/">Contact</a> · Edited with Tusk CMS</span>
+  </div>
+</footer>
+
+</body>
+</html>

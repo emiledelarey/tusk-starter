@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Business · What you do</title>
+<meta name="description" content="Your Business designs gardens for homes, schools and small public spaces. Design, planting and care.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="/style.css">
+</head>
+<!-- Every editable thing carries data-tusk="page.field". The values are
+     filled in by build.mjs from the Tusk snapshot; what is here is the
+     committed fallback so the site builds with no token at all. -->
+<body data-tusk-page="home">
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="/"><i></i>Your Business</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/" aria-current="page">Home</a>
+      <a href="/work/">Work</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero__grid">
+        <div>
+          <p class="eyebrow" data-tusk="home.eyebrow" data-tusk-label="Small line above the headline">What you do</p>
+          <h1 class="h1" data-tusk="home.heading" data-tusk-label="Headline">A headline your client can change.</h1>
+          <p class="lead" data-tusk="home.lead" data-tusk-label="Introduction" data-tusk-kind="textarea">One or two sentences about the business. The client edits this on the live page.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="/contact/"><span data-tusk="globals.resellerBtn" data-tusk-label="Primary button">Get in touch</span></a>
+            <a class="btn btn--ghost" href="/work/"><span data-tusk="globals.exploreBtn" data-tusk-label="Secondary button">See more</span></a>
+          </div>
+        </div>
+        <div>
+          <div class="hero__photo">
+            <img data-tusk="home.photos" data-tusk-label="Hero photo" data-tusk-aspect="16:10" src="/assets/garden-1.webp" alt="A sunlit garden in soft green" width="1600" height="1000">
+          </div>
+          <!-- build-only: the remaining photos of home.photos, cloned from the figure inside -->
+          <div class="strip" data-tusk-photos="home.photos" data-tusk-skip="1">
+            <figure><img src="/assets/garden-2.webp" alt="" loading="lazy"></figure>
+            <figure><img src="/assets/garden-3.webp" alt="" loading="lazy"></figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust" data-tusk-list="globals.trust" data-tusk-label="Trust strip" data-tusk-max="4">
+    <div class="wrap">
+      <div data-tusk-item>
+        <b data-tusk-field="value" data-tusk-label="Headline">Locally owned</b>
+        <small data-tusk-field="label" data-tusk-label="Detail">Owned and run here</small>
+      </div>
+      <div data-tusk-item>
+        <b data-tusk-field="value">Since 2020</b>
+        <small data-tusk-field="label">Years of doing this well</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section__head">
+        <h2 class="h2" data-tusk="globals.range" data-tusk-label="Range heading">What we do</h2>
+        <a class="btn btn--ghost" data-tusk="home.brochure" data-tusk-label="Brochure" data-tusk-kind="file" href="/assets/your-site-brochure.pdf" download>
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 2v8m0 0 3-3M8 10 5 7M3 13h10"/></svg>
+          Download our brochure
+        </a>
+      </div>
+      <div class="cards">
+        <article class="card"><span class="n">01</span><h3>Design</h3><p>A plan for the whole site, from levels and drainage to the last pot, drawn to be built.</p></article>
+        <article class="card"><span class="n">02</span><h3>Planting</h3><p>Species chosen for the soil and the light they will actually get, not the ones in the catalogue.</p></article>
+        <article class="card"><span class="n">03</span><h3>Care</h3><p>Seasonal visits in the first two years, so the garden keeps the shape the plan intended.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="band">
+      <div>
+        <p class="eyebrow" data-tusk="globals.bandEyebrow" data-tusk-label="Call-to-action eyebrow">Work with us</p>
+        <h2 class="h2" data-tusk="globals.bandTitle" data-tusk-label="Call-to-action title">Get in touch</h2>
+      </div>
+      <a class="btn btn--primary" href="/contact/"><span data-tusk="globals.bandBtn" data-tusk-label="Call-to-action button">Talk to us</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>Your Business Pty Ltd · Your suburb, Your city</span>
+    <span><a href="/work/">Work</a> · <a href="/contact/">Contact</a> · Edited with Tusk CMS</span>
+  </div>
+</footer>
+
+</body>
+</html>
