@@ -1,3 +1,6 @@
+> **This starter is no longer maintained** (frozen September 2026).
+> The current Tusk-ready starter, with every field kind, the banner, photo links and the latest build scripts, is at **https://tuskcms.com/starter**. Sign in to Tusk to download its build scripts.
+
 # Tusk starter site
 
 A small three-page business website (home, work, contact) in plain HTML and
